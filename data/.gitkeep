@@ -1,0 +1,8 @@
+# Data Directory
+
+This directory contains the diabetes health indicators dataset.
+
+Expected files:
+- diabetes.csv (BRFSS2015 Diabetes Health Indicators from Kaggle)
+
+Note: Dataset files are ignored by .gitignore for size and privacy concerns.
