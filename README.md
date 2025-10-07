@@ -22,21 +22,24 @@ git clone git@github.com:pagottoo/mle-fiap-fase3-diabetes-prediction.git mle-dia
 cd mle-diabetes-prediction
 ```
 
-# 1.1 Preparando a pasta `data/`:
+## 1.1 Preparando a pasta `data/`:
 Siga o README.md dentro de `data/`, para preparar o sistema antes de subir.
 ATENÇÃO: é necessario baixar o data-set do Kaggle para inicializar o sistema, veja o README e o `scripts/download_data.py`. 
 
-# 2. Execute o sistema completo
+## 2. Execute o sistema completo
 ```bash
 docker compose up --build -d
 ```
-# 3. Links uteis:
-# Dashboard: http://localhost:8501 (Interface Web)
-# API Docs: http://localhost:8000/docs (Documentação)
-# Análises: Selecione "Análise de Dados" no menu
 
-**Tudo pronto!:**
-## Como Usar
+**Tudo pronto**
+
+![Dashboard do Sistema](assets/dash.png)
+
+## 3. Links uteis:
+### Dashboard: http://localhost:8501 (Interface Web)
+### API Docs: http://localhost:8000/docs (Documentação)
+
+## Como Usar?
 
 ### **Fazer Predição**
 1. Acesse http://localhost:8501
