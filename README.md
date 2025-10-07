@@ -18,9 +18,13 @@
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/pagotto/mle-fase3-diabetes-prediction.git mle-diabetes-prediction
+git clone git@github.com:pagottoo/mle-fiap-fase3-diabetes-prediction.git mle-diabetes-prediction
 cd mle-diabetes-prediction
 ```
+
+# 1.1 Preparando a pasta `data/`:
+Siga o README.md dentro de `data/`, para preparar o sistema antes de subir.
+ATENÇÃO: é necessario baixar o data-set do Kaggle para inicializar o sistema, veja o README e o `scripts/download_data.py`. 
 
 # 2. Execute o sistema completo
 ```bash
