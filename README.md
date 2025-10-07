@@ -8,11 +8,11 @@
 
 ## Destaques do Projeto
 
-- **Sistema End-to-End Completo** - Desde coleta até predição
+- **Pipeline Completo** - Da coleta até a predição
 - **Machine Learning Explicável** - SHAP values para entendimento das decisões
-- **Visualizações Avançadas** - matplotlib + seaborn integrados
-- **Deploy com Docker** - Zero configuração, uma linha de comando
-- **Registros Reais** - Dataset BRFSS2015 do Kaggle completo
+- **Visualizações através de graficos** - matplotlib + seaborn integrados
+- **Deploy com Docker** - Zero configuração, uma linha de comando e tudo up and running!
+- **Registros Reais** - Dataset BRFSS2015 do Kaggle completo (mais de 250mil linhas de dados reais do CDC EUA)
 
 ## Inicialização:
 
@@ -36,7 +36,7 @@ docker compose up --build -d
 # Análises: Selecione "Análise de Dados" no menu
 
 **Tudo pronto!:**
-## 📋 Como Usar
+## Como Usar
 
 ### **Fazer Predição**
 1. Acesse http://localhost:8501
